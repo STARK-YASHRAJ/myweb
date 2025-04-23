@@ -50,8 +50,8 @@ export default function Sidebar() {
   );
 
   return (
-    <div>
-      <Button onClick={toggleDrawer(true)}>Open drawer</Button>
+    <div className='block sm:hidden'>
+      <Button onClick={toggleDrawer(true)}><MenuIcon/></Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>
