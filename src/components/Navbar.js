@@ -1,5 +1,6 @@
 import React from 'react'
 import { onlineshoping } from '../assets/MediaCall'
+import Sidebar from './sidebar'
 
 function Navbar() {
   return (
@@ -42,7 +43,7 @@ function Navbar() {
     <div className='sm:block hidden'>
         <img className="w-[50px] h-[50px] " src={onlineshoping.user3} alt=""></img>
     </div>
-   
+   <Sidebar />
     {/*-- ----------------------------               ------*/}
 </div>
 
